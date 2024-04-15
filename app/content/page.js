@@ -21,7 +21,9 @@ export default function Content () {
         </div>
         <div className={styles.subjectContainer}>
           <h3 className={styles.h3}>
-            <Link href={"https://www.codecademy.com/"}>codecademy</Link>
+            <Link className={styles.a} href={"https://www.codecademy.com/"}>
+              codecademy
+            </Link>
           </h3>
           <p className={styles.paragraph}>
             is well-known for its interactive learning environment, which
@@ -33,7 +35,9 @@ export default function Content () {
         </div>
         <div className={styles.subjectContainer}>
           <h3 className={styles.h3}>
-            <Link href={"https://www.freecodecamp.org/"}>freeCodeCamp</Link>
+            <Link className={styles.a} href={"https://www.freecodecamp.org/"}>
+              freeCodeCamp
+            </Link>
           </h3>
 
           <p className={styles.paragraph}>
@@ -45,7 +49,9 @@ export default function Content () {
         </div>
         <div className={styles.subjectContainer}>
           <h3 className={styles.h3}>
-            <Link href={"https://www.sololearn.com/en/"}>sololearn</Link>
+            <Link className={styles.a} href={"https://www.sololearn.com/en/"}>
+              sololearn
+            </Link>
           </h3>
 
           <p className={styles.paragraph}>
@@ -58,7 +64,9 @@ export default function Content () {
         </div>
         <div className={styles.subjectContainer}>
           <h3 className={styles.h3}>
-            <Link href={"https://www.coursera.org/"}>coursera</Link>
+            <Link className={styles.a} href={"https://www.coursera.org/"}>
+              coursera
+            </Link>
           </h3>
 
           <p className={styles.paragraph}>
@@ -70,7 +78,9 @@ export default function Content () {
         </div>
         <div className={styles.subjectContainer}>
           <h3 className={styles.h3}>
-            <Link href={"https://www.udemy.com/"}>udemy</Link>
+            <Link className={styles.a} href={"https://www.udemy.com/"}>
+              udemy
+            </Link>
           </h3>
 
           <p className={styles.paragraph}>
@@ -82,7 +92,9 @@ export default function Content () {
         </div>
         <div className={styles.subjectContainer}>
           <h3 className={styles.h3}>
-            <Link href={"https://www.w3schools.com/"}>W3Schools</Link>
+            <Link className={styles.a} href={"https://www.w3schools.com/"}>
+              W3Schools
+            </Link>
           </h3>
 
           <p className={styles.paragraph}>
@@ -94,7 +106,9 @@ export default function Content () {
         </div>
         <div className={styles.subjectContainer}>
           <h3 className={styles.h3}>
-            <Link href={"https://www.theodinproject.com/"}>theodinproject</Link>
+            <Link className={styles.a}  href={"https://www.theodinproject.com/"}>
+              theodinproject
+            </Link>
           </h3>
 
           <p className={styles.paragraph}>

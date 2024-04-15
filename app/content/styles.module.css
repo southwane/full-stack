@@ -39,9 +39,14 @@
   padding: 40px 0
 }
 
+.a {
+  color: whitesmoke;
+}
+
 @media screen and (max-width: 716px) {
   .subjectContainer,.introduction{
     text-align: center;
     padding: 10px;
   }
+  
 }
