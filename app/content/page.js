@@ -134,7 +134,7 @@ export default function Content () {
             material. Ultimately, the abundance of
           </p>
         </div>
-        <h4 className={styles.info}>written by: wanewrites</h4>
+        <h4 className={styles.info}>written by: southwane</h4>
       </div>
     );
 }
