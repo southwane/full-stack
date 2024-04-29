@@ -5,6 +5,9 @@ export default function Content () {
     return (
       <div className={styles.wrapper}>
         <div className={styles.container}>
+          <h4 className={styles.infoAuthor}>
+            written by: <Link href={"/cpwriter"} className={styles.author}>cpwriter</Link>
+          </h4>
           <h2 className={styles.h2}>
             Unlocking Web Development Skills: A Journey Through Top Educational
             Apps
@@ -70,10 +73,10 @@ export default function Content () {
           </h3>
 
           <p className={styles.paragraph}>
-            Coursera gives you the freedom to study at your own speed by
-            offering courses from respectable colleges and organizations. Its
-            more expensive price and less interactive features in comparison to
-            specialized coding platforms, however, can put off some users.
+            gives you the freedom to study at your own speed by offering courses
+            from respectable colleges and organizations. Its more expensive
+            price and less interactive features in comparison to specialized
+            coding platforms, however, can put off some users.
           </p>
         </div>
         <div className={styles.subjectContainer}>
@@ -84,10 +87,10 @@ export default function Content () {
           </h3>
 
           <p className={styles.paragraph}>
-            Udemy offers a variety of web development courses that may be
-            completed at your own pace using on-demand video lectures. The
-            quality of a course can vary greatly depending on the instructor,
-            even though it is often undervalued.
+            offers a variety of web development courses that may be completed at
+            your own pace using on-demand video lectures. The quality of a
+            course can vary greatly depending on the instructor, even though it
+            is often undervalued.
           </p>
         </div>
         <div className={styles.subjectContainer}>
@@ -98,21 +101,21 @@ export default function Content () {
           </h3>
 
           <p className={styles.paragraph}>
-            W3Schools Offline offers extensive offline reference content for
-            HTML, CSS, and JavaScript that may be accessed quickly. But unlike
-            other platforms, it does not have interactive coding lessons and
-            might not provide as structured of a learning path.
+            offline offers extensive offline reference content for HTML, CSS,
+            and JavaScript that may be accessed quickly. But unlike other
+            platforms, it does not have interactive coding lessons and might not
+            provide as structured of a learning path.
           </p>
         </div>
         <div className={styles.subjectContainer}>
           <h3 className={styles.h3}>
-            <Link className={styles.a}  href={"https://www.theodinproject.com/"}>
+            <Link className={styles.a} href={"https://www.theodinproject.com/"}>
               theodinproject
             </Link>
           </h3>
 
           <p className={styles.paragraph}>
-            With community-driven assistance, this free and open-source program
+            with community-driven assistance, this free and open-source program
             focuses on real-world projects and portfolio creation. But unlike
             platforms with video classes, it lacks instructional content and
             demands self-discipline to work through the curriculum.
@@ -134,7 +137,9 @@ export default function Content () {
             material. Ultimately, the abundance of
           </p>
         </div>
-        <h4 className={styles.info}>written by: southwane</h4>
+        <h4 className={styles.info}>
+          written by: <Link href={"/cpwriter"} className={styles.author}>cpwriter</Link>
+        </h4>
       </div>
     );
 }

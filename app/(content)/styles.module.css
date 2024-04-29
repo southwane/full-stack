@@ -7,6 +7,16 @@
 
 }
 
+.infoAuthor {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.author {
+    color: whitesmoke;
+    font-style: italic;
+}
+
 .h2 {
     margin: 40px 10px;
     text-align: center;

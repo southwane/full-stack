@@ -1,0 +1,33 @@
+
+
+
+.wrapper {
+
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+}
+
+.title {
+    color: red;
+}
+
+.grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.items {
+    display: flex;
+    max-width: 310px;
+    flex-direction: column;
+    text-align: center;
+}

@@ -8,7 +8,8 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.container}>
         <h1 className={styles.title}>
-          <span className={styles.span}>BLOG</span> DEV
+          <span className={styles.span}>BLOG</span> 
+          <span className={styles.spanb}>DEV</span>
         </h1>
         <h2 className={styles.subTitle}>
           Exploring the Best Apps to Learn Web Development: A Comprehensive
