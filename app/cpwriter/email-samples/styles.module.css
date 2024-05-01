@@ -4,4 +4,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+}
+
+.ul, .ul2 {
+    max-width: 400px;
+    margin: 10px 20px;
+}
+
+.lir2 {
+    margin-top: 20px;
+}
+
+.container {
+    text-align: center;
 }

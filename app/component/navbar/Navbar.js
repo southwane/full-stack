@@ -7,6 +7,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">CPWRITER</div>
       <ul className="ul">
+  
         <li className="li">
           <Link href={"/apps-to-learn-web-development"} className="a">
             LEARNING APPS
@@ -20,6 +21,11 @@ const Navbar = () => {
         <li className="li">
           <Link href={"/cpwriter/article-samples"} className="a">
             ARTICLE SAMPLES
+          </Link>
+        </li>
+        <li className="li">
+          <Link href={"/cpwriter/blog-samples"} className="a">
+           BLOG SAMPLES
           </Link>
         </li>
         {/* <li className="li">

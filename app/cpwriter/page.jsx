@@ -8,13 +8,14 @@ export default function cpWriter () {
     return (
       <>
         <div className={styles.wrapper}>
-          <span className={styles.title}>Hey there! I'm cpwriter,</span>
+          <span className={styles.title}>Hey there! I&apos;m cpwriter,</span>
 
           <p className={styles.paragraph1}>
             I am a driven and dedicated content developer, that enjoys creating
-            original content for blogs and websites, in addition to writing engaging
-            emails that convert readers. Whether sales copy, email marketing, web page content, I'm here to help you. We all
-            have to start somewhere, so don't let my lack of expertise in the
+            original content for blogs and websites, in addition to writing
+            engaging emails that convert readers. Whether sales copy, email
+            marketing, web page content, I&apos;m here to help you. We all have
+            to start somewhere, so don&apos;t let my lack of expertise in the
             industry fool you.
           </p>
         </div>

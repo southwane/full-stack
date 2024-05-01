@@ -12,7 +12,7 @@ export default function writingMaterial () {
         </div>
 
         <p className={styles.paragraph}>
-            Affilate offers for various writing material
+          Affilate offers for various writing material
         </p>
         <div className={styles.grid}>
           <div className={styles.items}>
@@ -22,14 +22,16 @@ export default function writingMaterial () {
               height={300}
               blurDataURL="data:..."
               placeholder="blur"
+              alt="affilate product image"
+              aria-label="temu affilate product"
             />
             <p className={styles.productInfo}>
-              "2 Packs 10-in 1 Multi-Tool Pen Set, Gifts For Men, - LED Light,
+              2 Packs 10-in 1 Multi-Tool Pen Set, Gifts For Men, - LED Light,
               Stylus, Ruler, Level, Bottle Opener, Screwdriver, Ballpoint,
               Construction, Pen, Stocking Stuffers Gifts For Men, Him,
               Boyfriend, Grandpa 👉 -85% off discount+EXTRA 30% OFF❤️ 🎉
               Exclusive deal[$2.86] -85% 👉 item link: ⚠️ Every New App User can
-              only enjoy once"
+              only enjoy once
             </p>
             <Link href={"https://temu.to/m/uwa5q84zm89"}>writing pen</Link>
           </div>
@@ -40,6 +42,8 @@ export default function writingMaterial () {
               height={300}
               blurDataURL="data:..."
               placeholder="blur"
+              alt="An ink pen"
+              aria-label="temu affilate product"
             />
             <p className={styles.productInfo}>
               10-Pack Of Quick-Drying 0.5mm Fine Point Rollerball Pens-Perfect
